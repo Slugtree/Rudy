@@ -1,29 +1,54 @@
 body{
-    background-color: lightgray;
+    background-color: palegoldenrod;
+    border: 25px solid palegoldenrod;
+
 }
-#fish{
-    background-color:lightgray;
+/*
+#me{
+    background:  url("./me.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
 }
+*/
+
 h1,h2,h3{
     text-align: center;
 }
 h3{
     font-size: 16px;
-    color: 
 }
 h1{
     font-family:Arial, Helvetica;
     font-size: 44px;
 }
+p{
+    text-align: left;
+    font-size: 18px;
+}
 .right_alligned#fish{
     position: absolute;
     top: 0px;
     right: 0px;
-    
 }
 .left_alligned#fish{
     position: absolute;
     top: 0px;
     left: 0px;
     
+}
+
+img:not(.no_border){
+    border: 2px solid lightblue;
+    
+}
+ embed:not(.no_border){
+    border: 2px solid lightslategray;
+}
+
+#WildSlug:hover{
+
+   background-color: blue;
+   opacity: .5;
+   /* figure out how to display text */
 }

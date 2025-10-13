@@ -3,15 +3,17 @@
     <head>
         <title> About Rudy </title>
         <link href = "./style.css" rel = "stylesheet"/>
+
     </head>
     <body>
+        <!--<image src = "./me.jpg" id = "background"> picture of me (Rudy) </image> -->
         <h1> Me myself, and I </h1>
         <h3> Rudy Huerta</h3>
 
         <!-- going to put these two spinning fish in the corner-->
 
-        <embed src = "spinning fish flow.gif" class = "right_alligned" id = "fish" width = 150 height = 150 />
-        <embed src = "spinning fish flow.gif" class = "left_alligned"" id = "fish" width = 150 height = 150 />
+        <embed src = "spinning fish flow.gif" class = "right_alligned no_border" id = "fish" width = 150 height = 150 />
+        <embed src = "spinning fish flow.gif" class = "left_alligned no_border" id = "fish" width = 150 height = 150 />
         <!-- going to put these two spinning fish in the corner-->
         <article>
             <h2>Who I am</h2>
@@ -30,6 +32,8 @@
                     enjoy now and currently playing are <i>The Binding of Isaac</i>, <i> Terraria</i>, and 
                     <i>Repo</i>.
                 </p>
+                <img src = "isaac.png" class = "no_border"/>
+                <img src = "terraria.jpg"/>
                 <p>
                     I <strong>LOVE</strong> music. I enjoy hip-hop and rap the most. I also enjoy jazz, jazz-rap,
                     and some mellow low intensity music. My favorite artist hands down is MF Grimm. My personal favorite
@@ -37,7 +41,7 @@
                     Cuco, and Gorillaz. Some songs I'm currently listening to are, "WORTH." by KidTokio, "SASQUATCH" by Joshua Raw,
                     "MAYBACH" by Godard, and "Watch Say?" by CHROMA and A-Wall. 
                 </p>
-                <image src = "Tower of Ibliys.jpg" width = 300, height = 300/>
+                <img src = "Tower of Ibliys.jpg" width = 300, height = 300/>
 
                 <p>
                     I haven't built many lego sets but the ones I have built I enjoyed making. 
@@ -61,19 +65,21 @@
                 He went for a couple seconds and my foot almost got smooshed by the wheel. 
             </p>
         </article>
-        <a href = "https://www.youtube.com/@grizzly78/videos" target = "_blank"> WildSlug </a>
-        <img src = "wild slug.png" width = 150 height = 150/>
+        <a href = "https://www.youtube.com/@grizzly78/videos" target = "_blank"><img src = "wild slug.png" id = "WildSlug" width = 150 height = 150/> </a>
+        
         <p>This is a youtube channel that I worked on with my friends</p>
         <h2> Here are some pictures/gifs I think are funny </h2>
         <figure id = "media">
             <ul>
-                <li> <img src = "pizza.jpg" width = 200 height = 200/> </li>
-                <li><img src = "monkey with suit.jpg" width = 200 height = 200 /> </li>
-                <li> <embed src = "milk.gif" width = 250 height = 300/> </li>
+                <li> <img src = "pizza.jpg" class = "left_alligned"  id = "pizza" width = 300 height = 300/> </li>
+                <li><img src = "monkey with suit.jpg" class = "right_alligned" id = "suit" width = 300 height = 300 /> </li>
+                <li> <embed src = "milk.gif" class = "center_alligned" id = "milk" width = 350 height = 400/> </li>
             </ul>
-            <p> I enjoy playing games, here are some clips of games that I thought were funny </p>
-            <video src = "slammed1.mp4" width = 600 height =  450 controls> Couldn't load video </video>
-            <video src = "stick.mp4" width = 600 height = 450 controls> Couldn't load video</video>
+            <h2> I enjoy playing games, here are some clips of games that I thought were funny </h2>
+            <ul>
+                <li><video src = "slammed1.mp4" class = "right_alligned" id = "gta" width = 550 height =  400 controls> Couldn't load video </video></li>
+                <li><video src = "stick.mp4" class = "left_alligned" id ="stick" width = 550 height = 400 controls> Couldn't load video</video></li>
+            </ul>
         </figure>
 
     </body>
