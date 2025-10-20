@@ -1,6 +1,6 @@
 body{
     background-color:rgb(238, 232, 170);
-    border: 25px solid rgb(238, 232, 170);
+    border: 10px solid rgb(238, 232, 170);
 
 }
 /*
@@ -14,6 +14,77 @@ body{
 
 h1,h2,h3{
     text-align: center;
+    margin: 5px;
+    padding: 15px;
+}
+div{
+    margin: 5px;
+    padding: 5px;
+}
+img{
+    padding: 10px;
+    margin: 5px;
+}
+#games{
+    background-color: lightgray;
+    height: 400px;
+
+}
+#friends{
+    background-color: lightyellow;
+    height: 500px;
+}
+#friends p{
+    text-align: center;
+
+}
+#smallintro
+{
+    background-color: rgb(186, 225, 240);
+
+}
+
+#garden{
+    background-color:rgb(195, 239, 130);
+}
+#flower_description{
+    display:inline-block;
+    width: 300px;
+}
+
+
+#music{
+    background-color:black;
+    color:white;
+}
+#stories{
+    background-color:aliceblue;
+    border: peachpuff 2px solid;
+    border-radius: 50px;
+
+}
+#pics{
+    background-color: gainsboro;
+    height: 500px;
+}
+#clips{
+    background-color: lightsteelblue;
+    height: 500px;
+}
+.float_right{
+    float: right;
+}
+.float_left{
+    float: left;
+}
+.center{
+    margin:auto;
+    display: flex;
+}
+
+
+.clear{
+    clear: both;
 }
 h3{
     font-size: 16px;
@@ -38,17 +109,22 @@ p{
     
 }
 
-img:not(.no_border){
-    border: 2px solid lightblue;
-    
-}
- embed:not(.no_border){
-    border: 2px solid lightslategray;
-}
+
+
 
 #WildSlug:hover{
 
    background-color: blue;
    opacity: .5;
    /* figure out how to display text */
+}
+ul li{
+    display:inline-block;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+ul#float_right{
+    float: right;
 }
